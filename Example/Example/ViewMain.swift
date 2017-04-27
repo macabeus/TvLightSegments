@@ -51,11 +51,11 @@ class ViewMain: UIViewController {
         segments.transitionConfig = TransitionConfig(
             transitionStart: { display in
                 return { (display as! UIViewController).view!.alpha = 0 }
-        },
+            },
             transitionStartTime: 0.5,
             transitionEnd: { display in
                 return { (display as! UIViewController).view!.alpha = 1 }
-        },
+            },
             transitionEndTime: 0.5
         )
         
