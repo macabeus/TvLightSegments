@@ -1,0 +1,20 @@
+PODS:
+  - Cartography (1.1.0)
+  - TvLightSegments (0.0.3):
+    - Cartography (~> 1.1)
+
+DEPENDENCIES:
+  - Cartography (~> 1.1)
+  - TvLightSegments (from `.`)
+
+EXTERNAL SOURCES:
+  TvLightSegments:
+    :path: "."
+
+SPEC CHECKSUMS:
+  Cartography: '0538ccb4044acbbda2266335fc58cb4228794d90'
+  TvLightSegments: af0bad38ec6aeebedbb57c2c98504a35c1445ec0
+
+PODFILE CHECKSUM: 8723369a0fc68f49314fdeceaf241ac433af95c2
+
+COCOAPODS: 1.2.1

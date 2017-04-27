@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07D48A95E6DCB3780BEFFEAE /* Pods_TvLightSegments.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6C5A290DAED6248A267B8F /* Pods_TvLightSegments.framework */; };
+		89F1A43A1EAE8A8700CEC401 /* TvLightSegments.h in Headers */ = {isa = PBXBuildFile; fileRef = 89F1A4381EAE8A8700CEC401 /* TvLightSegments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89F1A45C1EAE8DD700CEC401 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F1A45B1EAE8DD700CEC401 /* main.swift */; };
+		89F1A4641EAE948800CEC401 /* TvLightSegments.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 89F1A4631EAE948800CEC401 /* TvLightSegments.podspec */; };
+		89F1A4661EB12BF200CEC401 /* CellSegment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89F1A4651EB12BF200CEC401 /* CellSegment.xib */; };
+		89F1A4681EB12C1600CEC401 /* CellSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F1A4671EB12C1600CEC401 /* CellSegment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2DA81CD8CB99BBC4AB22D9CB /* Pods-TvLightSegments.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvLightSegments.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-TvLightSegments/Pods-TvLightSegments.debug.xcconfig"; sourceTree = "<group>"; };
+		89F1A4351EAE8A8700CEC401 /* TvLightSegments.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TvLightSegments.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89F1A4381EAE8A8700CEC401 /* TvLightSegments.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TvLightSegments.h; sourceTree = "<group>"; };
+		89F1A4391EAE8A8700CEC401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89F1A45B1EAE8DD700CEC401 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		89F1A4631EAE948800CEC401 /* TvLightSegments.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TvLightSegments.podspec; path = ../TvLightSegments.podspec; sourceTree = "<group>"; };
+		89F1A4651EB12BF200CEC401 /* CellSegment.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellSegment.xib; sourceTree = "<group>"; };
+		89F1A4671EB12C1600CEC401 /* CellSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellSegment.swift; sourceTree = "<group>"; };
+		BB6C5A290DAED6248A267B8F /* Pods_TvLightSegments.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TvLightSegments.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F864D6544C2AAEF7D5426F13 /* Pods-TvLightSegments.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvLightSegments.release.xcconfig"; path = "../Pods/Target Support Files/Pods-TvLightSegments/Pods-TvLightSegments.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89F1A4311EAE8A8700CEC401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D48A95E6DCB3780BEFFEAE /* Pods_TvLightSegments.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16FE5F6164FD12B54E92654A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB6C5A290DAED6248A267B8F /* Pods_TvLightSegments.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89F1A42B1EAE8A8700CEC401 = {
+			isa = PBXGroup;
+			children = (
+				89F1A4631EAE948800CEC401 /* TvLightSegments.podspec */,
+				89F1A4371EAE8A8700CEC401 /* TvLightSegments */,
+				89F1A4361EAE8A8700CEC401 /* Products */,
+				DBFE2619816CE0BF7BF0C65A /* Pods */,
+				16FE5F6164FD12B54E92654A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		89F1A4361EAE8A8700CEC401 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89F1A4351EAE8A8700CEC401 /* TvLightSegments.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89F1A4371EAE8A8700CEC401 /* TvLightSegments */ = {
+			isa = PBXGroup;
+			children = (
+				89F1A4381EAE8A8700CEC401 /* TvLightSegments.h */,
+				89F1A4391EAE8A8700CEC401 /* Info.plist */,
+				89F1A45B1EAE8DD700CEC401 /* main.swift */,
+				89F1A4671EB12C1600CEC401 /* CellSegment.swift */,
+				89F1A4651EB12BF200CEC401 /* CellSegment.xib */,
+			);
+			path = TvLightSegments;
+			sourceTree = "<group>";
+		};
+		DBFE2619816CE0BF7BF0C65A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DA81CD8CB99BBC4AB22D9CB /* Pods-TvLightSegments.debug.xcconfig */,
+				F864D6544C2AAEF7D5426F13 /* Pods-TvLightSegments.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		89F1A4321EAE8A8700CEC401 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F1A43A1EAE8A8700CEC401 /* TvLightSegments.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		89F1A4341EAE8A8700CEC401 /* TvLightSegments */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89F1A43D1EAE8A8700CEC401 /* Build configuration list for PBXNativeTarget "TvLightSegments" */;
+			buildPhases = (
+				D602859C48F7D0F73F928743 /* [CP] Check Pods Manifest.lock */,
+				89F1A4301EAE8A8700CEC401 /* Sources */,
+				89F1A4311EAE8A8700CEC401 /* Frameworks */,
+				89F1A4321EAE8A8700CEC401 /* Headers */,
+				89F1A4331EAE8A8700CEC401 /* Resources */,
+				C4DF7F3EF0D934B750A5A79F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TvLightSegments;
+			productName = TvLightSegments;
+			productReference = 89F1A4351EAE8A8700CEC401 /* TvLightSegments.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89F1A42C1EAE8A8700CEC401 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Bruno Macabeus Aquino";
+				TargetAttributes = {
+					89F1A4341EAE8A8700CEC401 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 56KUK57QCP;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 89F1A42F1EAE8A8700CEC401 /* Build configuration list for PBXProject "TvLightSegments" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 89F1A42B1EAE8A8700CEC401;
+			productRefGroup = 89F1A4361EAE8A8700CEC401 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89F1A4341EAE8A8700CEC401 /* TvLightSegments */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89F1A4331EAE8A8700CEC401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F1A4661EB12BF200CEC401 /* CellSegment.xib in Resources */,
+				89F1A4641EAE948800CEC401 /* TvLightSegments.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C4DF7F3EF0D934B750A5A79F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-TvLightSegments/Pods-TvLightSegments-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D602859C48F7D0F73F928743 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89F1A4301EAE8A8700CEC401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F1A45C1EAE8DD700CEC401 /* main.swift in Sources */,
+				89F1A4681EB12C1600CEC401 /* CellSegment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		89F1A43B1EAE8A8700CEC401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89F1A43C1EAE8A8700CEC401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		89F1A43E1EAE8A8700CEC401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DA81CD8CB99BBC4AB22D9CB /* Pods-TvLightSegments.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 56KUK57QCP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TvLightSegments/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = macabeus.TvLightSegments;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		89F1A43F1EAE8A8700CEC401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F864D6544C2AAEF7D5426F13 /* Pods-TvLightSegments.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 56KUK57QCP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TvLightSegments/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = macabeus.TvLightSegments;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89F1A42F1EAE8A8700CEC401 /* Build configuration list for PBXProject "TvLightSegments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89F1A43B1EAE8A8700CEC401 /* Debug */,
+				89F1A43C1EAE8A8700CEC401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89F1A43D1EAE8A8700CEC401 /* Build configuration list for PBXNativeTarget "TvLightSegments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89F1A43E1EAE8A8700CEC401 /* Debug */,
+				89F1A43F1EAE8A8700CEC401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89F1A42C1EAE8A8700CEC401 /* Project object */;
+}
