@@ -1,6 +1,6 @@
-[![Version](https://img.shields.io/cocoapods/v/TvLightSegments.svg?style=flat)](http://cocoapods.org/pods/RuAWSS3)
-[![License](https://img.shields.io/cocoapods/l/TvLightSegments.svg?style=flat)](http://cocoapods.org/pods/RuAWSS3)
-[![Platform](https://img.shields.io/cocoapods/p/TvLightSegments.svg?style=flat)](http://cocoapods.org/pods/RuAWSS3)
+[![Version](https://img.shields.io/cocoapods/v/TvLightSegments.svg?style=flat)](http://cocoapods.org/pods/TvLightSegments)
+[![License](https://img.shields.io/cocoapods/l/TvLightSegments.svg?style=flat)](http://cocoapods.org/pods/TvLightSegments)
+[![Platform](https://img.shields.io/cocoapods/p/TvLightSegments.svg?style=flat)](http://cocoapods.org/pods/TvLightSegments)
 
 # TvLightSegments
 💜  Clean, simple and beautiful segment bar for your AppleTv app
