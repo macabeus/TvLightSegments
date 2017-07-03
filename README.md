@@ -1,3 +1,7 @@
+[![Version](https://img.shields.io/cocoapods/v/TvLightSegments.svg?style=flat)](http://cocoapods.org/pods/TvLightSegments)
+[![License](https://img.shields.io/cocoapods/l/TvLightSegments.svg?style=flat)](http://cocoapods.org/pods/TvLightSegments)
+[![Platform](https://img.shields.io/cocoapods/p/TvLightSegments.svg?style=flat)](http://cocoapods.org/pods/TvLightSegments)
+
 # TvLightSegments
 💜  Clean, simple and beautiful segment bar for your AppleTv app
 
@@ -135,3 +139,8 @@ segments.transitionConfig = TransitionConfig(
 
 # TODO
 - [ ] Infinite list, with scroll bar
+
+**Maintainer**:
+
+> [macabeus](http://macalogs.com.br/) &nbsp;&middot;&nbsp;
+> GitHub [@macabeus](https://github.com/macabeus)
