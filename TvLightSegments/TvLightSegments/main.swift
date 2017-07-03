@@ -78,11 +78,11 @@ public class TvLightSegments: UICollectionView, UICollectionViewDelegate, UIColl
         
         // bottom bar
         let frame = self.frame
-        let viewCool = UIView(frame: CGRect(x: frame.minX, y: frame.minY + 50, width: frame.width, height: 5))
-        viewCool.backgroundColor = viewFooterColorNotSelected
+        let viewLargeFooter = UIView(frame: CGRect(x: frame.minX, y: frame.minY + 50, width: frame.width, height: 5))
+        viewLargeFooter.backgroundColor = viewFooterColorNotSelected
         
-        self.superview!.addSubview(viewCool)
-        self.superview!.sendSubview(toBack: viewCool)
+        self.superview!.addSubview(viewLargeFooter)
+        self.superview!.sendSubview(toBack: viewLargeFooter)
         self.backgroundColor = UIColor(white: 1, alpha: 0)
         
         // TvLightSegments
