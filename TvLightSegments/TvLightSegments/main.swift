@@ -77,13 +77,20 @@ public class TvLightSegments: UICollectionView, UICollectionViewDelegate, UIColl
         self.register(UINib(nibName: "CellSegment", bundle: Bundle(for: TvLightSegments.self)), forCellWithReuseIdentifier: "CellSegment")
         
         // bottom bar
-        let frame = self.frame
-        let viewLargeFooter = UIView(frame: CGRect(x: frame.minX, y: frame.minY + 50, width: frame.width, height: 5))
+        let viewLargeFooter = UIView()
         viewLargeFooter.backgroundColor = viewFooterColorNotSelected
         
         self.superview!.addSubview(viewLargeFooter)
         self.superview!.sendSubview(toBack: viewLargeFooter)
         self.backgroundColor = UIColor(white: 1, alpha: 0)
+        
+        constrain(self, viewLargeFooter) { tvLightSegments, largeFooter in
+            largeFooter.left == tvLightSegments.left + 14
+            largeFooter.right == tvLightSegments.right
+            
+            largeFooter.height == 5
+            largeFooter.top == tvLightSegments.top + 50
+        }
         
         // TvLightSegments
         self.viewDisplay = viewDisplay
