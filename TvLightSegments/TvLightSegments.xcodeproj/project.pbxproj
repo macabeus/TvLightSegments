@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		07D48A95E6DCB3780BEFFEAE /* Pods_TvLightSegments.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6C5A290DAED6248A267B8F /* Pods_TvLightSegments.framework */; };
 		89F1A43A1EAE8A8700CEC401 /* TvLightSegments.h in Headers */ = {isa = PBXBuildFile; fileRef = 89F1A4381EAE8A8700CEC401 /* TvLightSegments.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89F1A45C1EAE8DD700CEC401 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F1A45B1EAE8DD700CEC401 /* main.swift */; };
+		89F1A45C1EAE8DD700CEC401 /* TvLightSegments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F1A45B1EAE8DD700CEC401 /* TvLightSegments.swift */; };
 		89F1A4641EAE948800CEC401 /* TvLightSegments.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 89F1A4631EAE948800CEC401 /* TvLightSegments.podspec */; };
 		89F1A4661EB12BF200CEC401 /* CellSegment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89F1A4651EB12BF200CEC401 /* CellSegment.xib */; };
 		89F1A4681EB12C1600CEC401 /* CellSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F1A4671EB12C1600CEC401 /* CellSegment.swift */; };
@@ -20,7 +20,7 @@
 		89F1A4351EAE8A8700CEC401 /* TvLightSegments.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TvLightSegments.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89F1A4381EAE8A8700CEC401 /* TvLightSegments.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TvLightSegments.h; sourceTree = "<group>"; };
 		89F1A4391EAE8A8700CEC401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		89F1A45B1EAE8DD700CEC401 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		89F1A45B1EAE8DD700CEC401 /* TvLightSegments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TvLightSegments.swift; sourceTree = "<group>"; };
 		89F1A4631EAE948800CEC401 /* TvLightSegments.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TvLightSegments.podspec; path = ../TvLightSegments.podspec; sourceTree = "<group>"; };
 		89F1A4651EB12BF200CEC401 /* CellSegment.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellSegment.xib; sourceTree = "<group>"; };
 		89F1A4671EB12C1600CEC401 /* CellSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellSegment.swift; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 			children = (
 				89F1A4381EAE8A8700CEC401 /* TvLightSegments.h */,
 				89F1A4391EAE8A8700CEC401 /* Info.plist */,
-				89F1A45B1EAE8DD700CEC401 /* main.swift */,
+				89F1A45B1EAE8DD700CEC401 /* TvLightSegments.swift */,
 				89F1A4671EB12C1600CEC401 /* CellSegment.swift */,
 				89F1A4651EB12BF200CEC401 /* CellSegment.xib */,
 			);
@@ -206,7 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89F1A45C1EAE8DD700CEC401 /* main.swift in Sources */,
+				89F1A45C1EAE8DD700CEC401 /* TvLightSegments.swift in Sources */,
 				89F1A4681EB12C1600CEC401 /* CellSegment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
