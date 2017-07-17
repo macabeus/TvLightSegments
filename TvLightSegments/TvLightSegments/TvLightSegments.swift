@@ -166,11 +166,7 @@ public class TvLightSegments: UICollectionView, UICollectionViewDelegate, UIColl
             footerCenter.height == 5
         }
         
-        // select the first segment
-        if indexPath.item == 0 {
-            cell.changeToSelected()
-        }
-        
+        //
         return cell
     }
     
