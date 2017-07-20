@@ -137,9 +137,6 @@ segments.transitionConfig = TransitionConfig(
 )
 ```
 
-# TODO
-- [ ] Infinite list, with scroll bar
-
 **Maintainer**:
 
 > [macabeus](http://macalogs.com.br/) &nbsp;&middot;&nbsp;
