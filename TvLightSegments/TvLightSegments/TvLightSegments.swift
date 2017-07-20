@@ -49,7 +49,7 @@ public struct TransitionConfig {
     }
 }
 
-public class TvLightSegments: UICollectionView, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+public class TvLightSegments: UICollectionView, UICollectionViewDelegate, UICollectionViewDataSource {
     
     var segmentsItems: [TvLightSegmentsItem] = []
     var viewDisplay: TvLightSegmentsDisplay?
@@ -71,9 +71,10 @@ public class TvLightSegments: UICollectionView, UICollectionViewDelegate, UIColl
      */
     public func setup(viewDisplay: TvLightSegmentsDisplay) {
         
-        // UICollectionView
+        // setup UICollectionView
         self.delegate = self
         self.dataSource = self
+        self.collectionViewLayout = TvLightSegmentsLayout(delegate: self)
         self.register(UINib(nibName: "CellSegment", bundle: Bundle(for: TvLightSegments.self)), forCellWithReuseIdentifier: "CellSegment")
         
         // bottom bar
@@ -186,22 +187,27 @@ public class TvLightSegments: UICollectionView, UICollectionViewDelegate, UIColl
         return true
     }
     
-    public func collectionView(_ collectionView: UICollectionView,
-                               layout collectionViewLayout: UICollectionViewLayout,
-                               sizeForItemAt indexPath: IndexPath) -> CGSize {
-        
-        let labelFak = UILabel()
-        labelFak.text = segmentsItems[indexPath.item].tvLightSegmentsName()
-        labelFak.sizeToFit()
-        
-        return CGSize(width: labelFak.frame.width + 30, height: collectionView.bounds.size.height)
-    }
-    
     public func collectionView(_ collectionView: UICollectionView, canFocusItemAt indexPath: IndexPath) -> Bool {
         
         if shouldSelectEspecificTab && indexPath.row != selectedIndex.row {
             return false
         }
         return true
+    }
+}
+
+extension TvLightSegments: TvLightSegmentsLayoutDelegate {
+    public func getSegmentsTextSize() -> [CGSize] {
+        return segmentsItems.map { $0.tvLightSegmentsName().labelFrameSize() }
+    }
+}
+
+extension String {
+    func labelFrameSize() -> CGSize {
+        let labelFak = UILabel()
+        labelFak.text = self
+        labelFak.sizeToFit()
+        
+        return labelFak.frame.size
     }
 }

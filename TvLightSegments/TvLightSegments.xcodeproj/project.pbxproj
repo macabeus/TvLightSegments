@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		07D48A95E6DCB3780BEFFEAE /* Pods_TvLightSegments.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6C5A290DAED6248A267B8F /* Pods_TvLightSegments.framework */; };
+		894BBDB21F1E3F0A009FC5B2 /* TvLightSegmentsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894BBDB11F1E3F0A009FC5B2 /* TvLightSegmentsLayout.swift */; };
 		89F1A43A1EAE8A8700CEC401 /* TvLightSegments.h in Headers */ = {isa = PBXBuildFile; fileRef = 89F1A4381EAE8A8700CEC401 /* TvLightSegments.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89F1A45C1EAE8DD700CEC401 /* TvLightSegments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F1A45B1EAE8DD700CEC401 /* TvLightSegments.swift */; };
 		89F1A4641EAE948800CEC401 /* TvLightSegments.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 89F1A4631EAE948800CEC401 /* TvLightSegments.podspec */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		2DA81CD8CB99BBC4AB22D9CB /* Pods-TvLightSegments.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvLightSegments.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-TvLightSegments/Pods-TvLightSegments.debug.xcconfig"; sourceTree = "<group>"; };
+		894BBDB11F1E3F0A009FC5B2 /* TvLightSegmentsLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TvLightSegmentsLayout.swift; sourceTree = "<group>"; };
 		89F1A4351EAE8A8700CEC401 /* TvLightSegments.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TvLightSegments.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89F1A4381EAE8A8700CEC401 /* TvLightSegments.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TvLightSegments.h; sourceTree = "<group>"; };
 		89F1A4391EAE8A8700CEC401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				89F1A4381EAE8A8700CEC401 /* TvLightSegments.h */,
 				89F1A4391EAE8A8700CEC401 /* Info.plist */,
 				89F1A45B1EAE8DD700CEC401 /* TvLightSegments.swift */,
+				894BBDB11F1E3F0A009FC5B2 /* TvLightSegmentsLayout.swift */,
 				89F1A4671EB12C1600CEC401 /* CellSegment.swift */,
 				89F1A4651EB12BF200CEC401 /* CellSegment.xib */,
 			);
@@ -206,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				894BBDB21F1E3F0A009FC5B2 /* TvLightSegmentsLayout.swift in Sources */,
 				89F1A45C1EAE8DD700CEC401 /* TvLightSegments.swift in Sources */,
 				89F1A4681EB12C1600CEC401 /* CellSegment.swift in Sources */,
 			);
