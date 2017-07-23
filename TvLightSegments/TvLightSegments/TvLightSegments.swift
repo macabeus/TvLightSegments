@@ -215,6 +215,6 @@ extension String {
         labelFak.text = self
         labelFak.sizeToFit()
         
-        return labelFak.frame.size
+        return CGSize(width: labelFak.frame.size.width + 20, height: labelFak.frame.size.height)
     }
 }
