@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "TvLightSegments"
-  s.version      = "0.2.2"
+  s.version      = "0.2.3"
   s.summary      = "Clean, simple and beautiful segment bar for your AppleTv app"
   s.homepage     = "https://github.com/brunomacabeusbr/TvLightSegments"
   s.license      = { :type => "MIT", :file => "LICENSE" }
