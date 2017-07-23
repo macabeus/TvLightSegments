@@ -8,11 +8,16 @@
 
 import UIKit
 
+protocol CellSegmentDelegate {
+    func cellIsCurrentFocused(_ cell: UICollectionViewCell) -> Bool
+}
+
 class CellSegment: UICollectionViewCell {
     
     @IBOutlet weak var labelSegmentName: UILabel!
     @IBOutlet weak var viewFooter: UIView!
     
+    var delegate: CellSegmentDelegate?
     var segmentItem: TvLightSegmentsItem?
     var display: TvLightSegmentsDisplay?
     var transitionConfig: TransitionConfig?
@@ -50,14 +55,17 @@ class CellSegment: UICollectionViewCell {
                     withDuration: transitionConfig.transitionStartTime,
                     animations: transitionConfig.transitionStart(display!),
                     completion: { _ in
-                        self.display!.didChangeSegment(self.segmentItem!)
+                        if self.delegate!.cellIsCurrentFocused(self) { // avoid race condition
+                            self.display!.didChangeSegment(self.segmentItem!)
+                        }
                         
                         UIView.animate(
                             withDuration: transitionConfig.transitionEndTime,
                             animations: transitionConfig.transitionEnd(self.display!),
                             completion: nil
                         )
-                })
+                    }
+                )
                 
             } else {
                 self.display!.didChangeSegment(self.segmentItem!)

@@ -133,6 +133,7 @@ public class TvLightSegments: UICollectionView, UICollectionViewDelegate, UIColl
         
         let currentSegment = segmentsItems[indexPath.item]
         
+        cell.delegate = self
         cell.segmentItem = currentSegment
         cell.display = viewDisplay!
         cell.transitionConfig = transitionConfig
@@ -199,6 +200,12 @@ public class TvLightSegments: UICollectionView, UICollectionViewDelegate, UIColl
 extension TvLightSegments: TvLightSegmentsLayoutDelegate {
     public func getSegmentsTextSize() -> [CGSize] {
         return segmentsItems.map { $0.tvLightSegmentsName().labelFrameSize() }
+    }
+}
+
+extension TvLightSegments: CellSegmentDelegate {
+    func cellIsCurrentFocused(_ cell: UICollectionViewCell) -> Bool {
+        return indexPath(for: cell) == selectedIndex
     }
 }
 
